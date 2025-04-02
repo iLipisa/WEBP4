@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика4</title>
+    <link rel="shortcut icon" href="gazprom.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="body-class">
+    <header>
+        <img title="фотка" src="https://newgaztech.ru/upload/images/catalog_logo/591b5d16656ef9e16a72643f91c635e9_450.jpg"/>
+        <h1>Газпромнефть-Снабжение</h1>
+        <nav>
+            <ul>
+                <li><a href="#info">О предприятии</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <video autoplay loop class="video-pleer">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <h2 class="section-title">"Газпромнефть-Снабжение"- лидер комплексных услуг на рынке промышленных закупок и логистики.</h2>
+        <p>Мы обеспечиваем бесперебойную работу крупных предприятий и меняем 
+            подход к промышленному снабжению, внедряя в процессы инновации.
+        </p>
+
+        <h2 class="modal-title">Новости</h2>
+        <dialog id="myDialog">
+            <ol>
+                <li>"Газпромнефть-Снабжение" внедряет новые логистические решения для работы на Крайнем Севере</li>
+                <li>"Газпромнефть-Снабжение" выполнило доставку крупногабаритного груза по Сибири</li>
+                <li>"Газпром-Нефть" обеспечила рекордный результат по итогам 224 года</li>
+                <li>"Газпромнефть-Снабжение" способствует профессиональному развитию будущих кадров</li>
+            </ol>
+            <button onclick="window.myDialog.close()">Закрыть</button>
+        </dialog>
+        <button onclick="window.myDialog.showModal()">Открыть</button>
+
+        <section id="info">
+            <h2 class="about-company">О предприятии</h2>
+            <article>
+                <p>"Газпромнефть-Снабжение" - комплексный оператор услуг в области промышленных закупок и логистики.
+                    "Газпромнефть-Снабжение" занимается материально-техническим обеспечением предприятий добывающей,
+                    энергетической, машиностроительной и других отраслей промышленности.
+                </p>
+                <img title="фотка2" src="picture2.jpg" class="picture2">
+            </article>
+        </section>
+
+        <section id="services">
+            <h2 class="services">Услуги</h2>
+                <h3>Логистика</h3>
+                <img src="picture3.jpg" title="фотка3" class="picture3">
+                <ol>
+                    <li>Транспортная логистика</li>
+                    <li>Складская логистика</li>
+                    <li>Таможенное оформление</li>
+                    <li>Аутсорсинг</li>
+                </ol>
+                <h3>Обеспечение товарами и услугами</h3>
+                <img src="picture4.jpg" title="фотка4" class="picture4">
+                <ol>
+                    <li>Закупки</li>
+                    <li>Управление запасами</li>
+                    <li>Управление качеством</li>
+                </ol>
+                <h3>Дополнительные сервисы</h3>
+                <img src="picture5.jpg" title="фотка5" class="picture5">
+                <ol>
+                    <li>Консалтинг</li>
+                    <li>Финансовые сервисы</li>
+                    <li>Обучение</li>
+                </ol>
+        </section>
+
+        <section id="contacts">
+            <h2 class="contacts">Контакты</h2>
+                <p>Ссылка на официальный сайт компании:
+                    <a href="https://supply.gazprom-neft.ru">Официальная страница</a>
+                </p>
+        </section>
+    </main>
+
+    <footer>© 2025 Информация взята из открытых источников</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,191 @@
+.body-class {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 1px solid #003366;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-pleer {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #003366;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  color: #003366;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#myDialog {
+  border: 2px solid #003366;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+#myDialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myDialog button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#myDialog button:hover {
+  background-color: #004080;
+}
+
+#info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-company {
+  color: #003366;
+  font-size: 1.5em;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+}
+
+.picture2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+#services {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+  color: #003366;
+  font-size: 1.5em;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+}
+
+#services h3 {
+  color: #003366;
+  margin-top: 20px;
+}
+
+.picture3, .picture4, .picture5 {
+  max-width: 300px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+#services ol {
+  margin-bottom: 30px;
+}
+
+#contacts {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacts {
+  color: #003366;
+  font-size: 1.5em;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+}
+
+#contacts a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contacts a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
